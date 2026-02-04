@@ -1,0 +1,8 @@
+{
+  "services": [
+    {
+      "name": "example_service",
+      "instances": 1
+    }
+  ]
+}

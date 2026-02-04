@@ -77,4 +77,4 @@ test:clang-tidy --output_groups=+rules_lint_report
 # Use LLVM toolchain for clang-tidy so it can find system headers
 test:clang-tidy --extra_toolchains=@llvm_toolchain//:cc-toolchain-x86_64-linux
 
-import quality/sanitizer/sanitizer.bazelrc
+import /home/azan/projects/communication/quality/sanitizer/sanitizer.bazelrc
